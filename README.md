@@ -11,7 +11,7 @@ I used [Bulma](https://github.com/jgthms/bulma) as the CSS Framework and [react-
 
 ## Installation
 
-If you want to try it out, perhaps for some examples of react and react-router usage, Clone the repo, **npm install**, then **'npm start'** to run a reload server, then when you want to built a production version run **'npm run build'**
+If you want to try it out, perhaps for some examples of react and sass usage, Clone the repo, **npm install**, then **'npm start'** to run a reload server, then when you want to built a production version run **'npm run build'**
 
 ## License
 
