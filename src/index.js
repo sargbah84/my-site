@@ -2,9 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Preloader from "./components/Preloader";
-import Credit from "./components/Credit";
+import Portfolio from "./components/Portfolio";
+import About from './components/About';
+import Footer from './components/Footer';
 
-import 'bulma/css/bulma.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import "./app.scss";
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
     <div className="App">
 	  	<Preloader />
       <Header />
-      <Credit />
+      <About />
+      <Portfolio />
+      <Footer />
     </div>
   );
 }

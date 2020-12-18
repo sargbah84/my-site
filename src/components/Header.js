@@ -5,11 +5,11 @@ import { FaLinkedinIn, FaBehance, FaGithub, FaCodepen, FaPinterest } from 'react
 class Header extends React.Component {
   render() {
     return (
-      <header className="header">
+      <header className="header dark">
         <div className="container">
           <div className="hero">
       			<figure className="image">
-            	<img src={Avatar} className="is-rounded" alt="Prince Sargbah" />
+            	<img src={Avatar} className="img-fluid rounded-circle" alt="Prince Sargbah" />
       			</figure>
             <h1>Prince J. Sargbah</h1>
             <p className="position">Full Stack Developer</p>
@@ -17,13 +17,7 @@ class Header extends React.Component {
               I am a husband, a father of 3 and a full stack developer based in
               San Diego, CA. I love to design as much as I love to code.
             </p>
-    			  <div className="socials">
-      				<a href="https://www.linkedin.com/in/prince-sargbah-b0155479/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-      				<a href="https://behance.net/sargbah84" target="_blank" rel="noopener noreferrer"><FaBehance /></a>
-      				<a href="https://github.com/sargbah84" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-      				<a href="https://codepen.io/sargbah84" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
-      				<a href="https://pinterest.com/princesargbah" target="_blank" rel="noopener noreferrer"><FaPinterest /></a>
-      			 </div>
+    			  <h1 className="signature mt-5 opacity-75">P. Sargbah</h1>
           </div>
         </div>
       </header>
