@@ -1,25 +1,33 @@
 import React from "react";
 import Avatar from "../img/avatar.jpg";
-import { FaLinkedinIn, FaBehance, FaGithub, FaCodepen, FaPinterest } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 
 class Header extends React.Component {
   render() {
     return (
-      <header className="header dark">
+      <header className="header position-relative dark">
         <div className="container">
-          <div className="hero">
-      			<figure className="image">
-            	<img src={Avatar} className="img-fluid rounded-circle" alt="Prince Sargbah" />
-      			</figure>
-            <h1>Prince J. Sargbah</h1>
-            <p className="position">Full Stack Developer</p>
-            <p>
-              I am a husband, a father of 3 and a full stack developer based in
-              San Diego, CA. I love to design as much as I love to code.
-            </p>
-    			  <h1 className="signature mt-5 opacity-75">P. Sargbah</h1>
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="hero mx-auto clearfix">
+                <figure className="image">
+                  <img src={Avatar} className="img-fluid rounded-circle" alt="Prince Sargbah" />
+                </figure>
+                <h1>Prince J. Sargbah</h1>
+                <p className="position">Full Stack Developer</p>
+                <p>
+                  I am a husband, a father of 3 and a full stack developer based in
+                  San Diego, CA. I love to design as much as I love to code.
+                </p>
+                <h1 className="signature my-5 opacity-75">P. Sargbah</h1>
+                <div className="clearfix arrow-down mt-4"><FaChevronDown /></div>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="bg-box bg-box-1 position-absolute"></div>
+        <div className="bg-box bg-box-2 position-absolute"></div>
+        <div className="bg-box bg-box-3 position-absolute"></div>
       </header>
     );
   }

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Preloader from "./components/Preloader";
 import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
 import About from './components/About';
 import Footer from './components/Footer';
 
@@ -15,6 +16,7 @@ function App() {
 	  	<Preloader />
       <Header />
       <About />
+      <Skills />
       <Portfolio />
       <Footer />
     </div>

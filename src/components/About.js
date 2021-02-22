@@ -3,11 +3,11 @@ import React from 'react';
 class About extends React.Component{
     render(){
         return (
-            <section className="clearfix py-5 dark">
-                <div className="container">
-                    <div className="clearfix mb-5">
+            <section className="clearfix position-relative py-5 dark">
+                <div className="container px-md-0 px-4">
+                    <div className="clearfix text-center mb-5">
                         <h1 className="display-1 opacity-25 mb-0">About Me</h1>
-                        <p className="d-none">About Me</p>
+                        <p className="text-white opacity-50">List of my educational and work achievements as well as my coding skills.</p>
                     </div>
                     <div className="row">
                         <div className="col-md-4">
