@@ -4,7 +4,7 @@ This repository contain my personal website built using [React Js](https://faceb
 
 ## Packages
 
-I used [Bulma](https://github.com/jgthms/bulma) CSS to make the layouts, SCSS to customize the look, and [react-icons](https://www.npmjs.com/package/react-icons) for the social icons at the button of my intro.
+I used [Boostrap](https://github.com/twbs/bootstrap) CSS to make the layouts, SCSS to customize the look, and [react-icons](https://www.npmjs.com/package/react-icons) for the social icons at the button of my intro.
 
 ## Example
 [https://princesargbah.me](https://princesargbah.me/)
