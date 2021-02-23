@@ -45,7 +45,7 @@ class Portfolio extends React.Component
                                 <span className="small">WordPress & Laravel</span>
                                 <h5 className="font-weight-normal mb-0">MTN Liberia Music Awards</h5>
                                 <p className="small d-block opacity-50 mb-1">Client award & artist community app built on WordPress CMS and Laravel Framework.</p>
-                                <a href="https://www.terraliberia.com" className="btn btn-success btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
+                                <a href="https://mtn.liberiamusicawards.org" className="btn btn-success btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
                             </div>
                             <div className="block px-4 py-3 mb-3">
                                 <span className="small">Laravel & React Native</span>

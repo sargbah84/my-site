@@ -28,6 +28,7 @@ class Header extends React.Component {
         <div className="bg-box bg-box-1 position-absolute"></div>
         <div className="bg-box bg-box-2 position-absolute"></div>
         <div className="bg-box bg-box-3 position-absolute"></div>
+        <div className="bg-box bg-box-4 position-absolute"></div>
       </header>
     );
   }

@@ -8,6 +8,7 @@ class Skills extends React.Component
                 <div className="container px-md-0 px-4">
                     <div className="row justify-content-center">
                         <div className="col-md-10">
+                            <h4 className="font-weight-normal my-3">Coding Skills</h4>
                             <ul>
                                 <li>HTML5 & CSS3</li>
                                 <li>React Js</li>

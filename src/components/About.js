@@ -34,7 +34,7 @@ class About extends React.Component{
                         <div className="col-md-4">
                             <h4 className="font-weight-normal mb-3">Experience</h4>
                             <div className="clearfix block px-4 py-3 mb-3">
-                                <span>Senior Web Developer</span>
+                                <span>Lead Developer</span>
                                 <h5 className="font-weight-normal mb-1">Turn-keys System, LLC</h5>
                                 <span className="date">2016/08 - Present</span>
                                 <p>Test</p>
