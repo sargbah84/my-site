@@ -4,6 +4,7 @@ import { FaChevronDown } from 'react-icons/fa';
 
 class Header extends React.Component {
   render() {
+    console.log(this.props)
     return (
       <header className="header position-relative dark">
         <div className="container">
@@ -13,13 +14,10 @@ class Header extends React.Component {
                 <figure className="image">
                   <img src={Avatar} className="img-fluid rounded-circle" alt="Prince Sargbah" />
                 </figure>
-                <h1>Prince J. Sargbah</h1>
-                <p className="position">Full Stack Developer</p>
-                <p>
-                  I am a husband, a father of 3 and a full stack developer based in
-                  San Diego, CA. I love to design as much as I love to code.
-                </p>
-                <h1 className="signature my-5 opacity-75">P. Sargbah</h1>
+                <h1>{this.props.data.name}</h1>
+                <p className="position">{this.props.data.position}</p>
+                <p>{this.props.data.summary}</p>
+                <h1 className="signature my-5 opacity-75">{this.props.data.signature}</h1>
                 <div className="clearfix arrow-down mt-4"><FaChevronDown /></div>
               </div>
             </div>

@@ -10,20 +10,9 @@ class Skills extends React.Component
                         <div className="col-md-10">
                             <h4 className="font-weight-normal my-3">Coding Skills</h4>
                             <ul>
-                                <li>HTML5 & CSS3</li>
-                                <li>React Js</li>
-                                <li>JavaScript</li>
-                                <li>Node Js</li>
-                                <li>Webpack</li>
-                                <li>Sass & Less</li>
-                                <li>Git & Composer</li>
-                                <li>XML & Json</li>
-                                <li>Bootstrap 4 & 5</li>
-                                <li>WordPress</li>
-                                <li>PHP</li>
-                                <li>PHP Framework (Laravel)</li>
-                                <li>Mango DB</li>
-                                <li>MySQL</li>
+                                {this.props.data.skills.map((resp) => 
+                                    <li key={resp.id}>{resp.name}</li>
+                                )}
                             </ul>
                         </div>
                     </div>

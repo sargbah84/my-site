@@ -1,0 +1,179 @@
+{
+    "type": "json",
+    "updated_at": "2021-03-10",
+    "data": [
+        {
+            "name": "Prince J. Sargbah",
+            "position": "Full Stack Developer",
+            "signature": "P. Sargbah",
+            "avatar": "",
+            "summary": "I am a husband, a father of 3 and a full stack developer based in San Diego, CA. I love to design as much as I love to code.",
+            "details": "",
+            "education": [
+                {
+                    "id": 3,
+                    "name": "California State University",
+                    "deploma": "Bacholar of Arts",
+                    "start": "2011/09",
+                    "end": "2014/05"
+                },
+                {
+                    "id": 2,
+                    "name": "Fullerton College",
+                    "deploma": "Associate of Arts",
+                    "start": "2008/01",
+                    "end": "2011/08"
+                },
+                {
+                    "id": 1,
+                    "name": "North County Community College District",
+                    "deploma": "Web Design & Graphics",
+                    "start": "2007/04",
+                    "end": "2007/08"
+                }
+            ],
+            "experience": [
+                {
+                    "id": 4,
+                    "name": "Turn-keys System, LLC",
+                    "position": "Full-stack Developer",
+                    "start": "2016/08",
+                    "end": ""
+                },
+                {
+                    "id": 3,
+                    "name": "US Newspaper, Inc.",
+                    "position": "Web Developer",
+                    "start": "2014/12",
+                    "end": "2016/07"
+                },
+                {
+                    "id": 2,
+                    "name": "Raeken, Inc.",
+                    "position": "Frontend Developer",
+                    "start": "2014/01",
+                    "end": "2015/12"
+                },
+                {
+                    "id": 1,
+                    "name": "Link4 Corporation",
+                    "position": "Web Developer",
+                    "start": "2013/07",
+                    "end": "2013/12"
+                }
+            ],
+            "certificates": [
+                {
+                    "id": 3,
+                    "company": "FreeCodeCamp",
+                    "deploma": "Frontend Bootcamp",
+                    "date": "2019/08"
+                },
+                {
+                    "id": 2,
+                    "company": "Google, Inc.",
+                    "deploma": "Google Tag Manager",
+                    "date": "2018/12"
+                },
+                {
+                    "id": 1,
+                    "company": "Code School",
+                    "deploma": "Shaping Up With Angular",
+                    "date": "2017/01"
+                }
+            ],
+            "careers": [
+                {
+                    "id": 10,
+                    "name": "Real Estate Money, Inc",
+                    "type": "WordPress",
+                    "details": "Corporate website built on WordPress CMS. Also includes multiple lead magnet funnels used by the marketing department to generate new leads and dynamic forms to purchase products.",
+                    "url": "https://www.realestatemoney.com"
+                },
+                {
+                    "id": 9,
+                    "name": "ProfitGrabber, Inc",
+                    "type": "HTML, CSS & JavaScript",
+                    "details": "Software landing page and order form built on on Core CSS, HTML, JavaScript and PHP",
+                    "url": "https://www.profitgrabber.com"
+                },
+                {
+                    "id": 8,
+                    "name": "CoachingCall Organizer",
+                    "type": "Laravel & Blade Template Engine",
+                    "details": "App to enable coaches and students organize and schedule calls with students.",
+                    "url": "https://coachingcall.mentormemarko.com"
+                }
+            ],
+            "professionals": [
+                {
+                    "id": 7,
+                    "name": "Swav Apparel",
+                    "type": "Shopify Template Engine",
+                    "details": "Online store design and built on the Shopify theme engine.",
+                    "url": "https://swavapparel.com"
+                },
+                {
+                    "id": 6,
+                    "name": "MTN Liberia Music Awards",
+                    "type": "WordPress & Laravel",
+                    "details": "Client award & artist community app built on WordPress CMS and Laravel Framework.",
+                    "url": "https://mtn.liberiamusicawards.org"
+                },
+                {
+                    "id": 5,
+                    "name": "TrueLiberia App",
+                    "type": "Laravel & React Native",
+                    "details": "A business directory App built on Laravel framework.",
+                    "url": "https://www.trueliberia.com"
+                },
+                {
+                    "id": 4,
+                    "name": "Terra Cocoa",
+                    "type": "React & MongoDB",
+                    "details": "A business website built on React Js.",
+                    "url": "https://www.terraliberia.com"
+                }
+            ],
+            "others": [
+                {
+                    "id": 3,
+                    "name": "CSS Card",
+                    "type": "HTML & CSS",
+                    "details": "One of my most viewed Simple HTML & CSS fun projects on Codepen",
+                    "url": "https://codepen.io/sargbah84/pen/pyVzRo"
+                },
+                {
+                    "id": 2,
+                    "name": "Coming Soon Page",
+                    "type": "React Js & Custom CSS",
+                    "details": "Getting my hands at react js and custom css.",
+                    "url": "https://0i9qs.csb.app"
+                },
+                {
+                    "id": 1,
+                    "name": "My website",
+                    "type": "React Js, Bootstrap & SCSS",
+                    "details": "Getting my hands at custom building react components. Also integrating Bootstrap, SCSS and WebFonts.",
+                    "url": "https://www.princesargbah.me"
+                }
+            ],
+            "skills": [
+                {"id": 1, "name": "HTML5 & CSS3"}, 
+                {"id": 2, "name": "React Js"}, 
+                {"id": 3, "name": "JavaScript"}, 
+                {"id": 4, "name": "Node Js"}, 
+                {"id": 5, "name": "Webpack"}, 
+                {"id": 6, "name": "Sass & Less"}, 
+                {"id": 7, "name": "Git & Composer"}, 
+                {"id": 8, "name": "XML & Json"}, 
+                {"id": 9, "name": "Bootstrap 4 & 5"}, 
+                {"id": 10, "name": "WordPress"}, 
+                {"id": 11, "name": "PHP"}, 
+                {"id": 12, "name": "PHP Framework (Laravel)"}, 
+                {"id": 13, "name": "Mango DB"}, 
+                {"id": 14, "name": "MySQL"}
+            ]
+        }
+    ]
+}
