@@ -18,7 +18,7 @@ class Portfolio extends React.Component
                                     <span className="small">{resp.type}</span>
                                     <h5 className="font-weight-normal mb-0">{resp.name}</h5>
                                     <p className="small d-block opacity-50 mb-1">{resp.details}</p>
-                                    <a href={resp.details} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
+                                    <a href={resp.url} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
                                 </div>
                             )}
                         </div>
@@ -29,7 +29,7 @@ class Portfolio extends React.Component
                                     <span className="small">{resp.type}</span>
                                     <h5 className="font-weight-normal mb-0">{resp.name}</h5>
                                     <p className="small d-block opacity-50 mb-1">{resp.details}</p>
-                                    <a href={resp.details} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
+                                    <a href={resp.url} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
                                 </div>
                             )}
                         </div>
@@ -40,7 +40,7 @@ class Portfolio extends React.Component
                                     <span className="small">{resp.type}</span>
                                     <h5 className="font-weight-normal mb-0">{resp.name}</h5>
                                     <p className="small d-block opacity-50 mb-1">{resp.details}</p>
-                                    <a href={resp.details} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
+                                    <a href={resp.url} className="btn btn-primary btn-circle py-1" target="_blank" rel="noreferrer">Visit Site</a>
                                 </div>
                             )}
                         </div>
