@@ -31,6 +31,9 @@ class About extends React.Component{
                                     <p></p>
                                 </div>
                             )}
+                            {/*<div className="clearfix text-center mb-2">
+                                <button className="btn btn-primary">Show More</button>
+                            </div>*/}
                         </div>
                         <div className="col-md-4">
                             <h4 className="font-weight-normal mb-3">Certificate</h4>
