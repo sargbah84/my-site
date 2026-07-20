@@ -1,9 +1,15 @@
 [build]
-  # DEPLOY_PRIME_URL is the production domain on production builds and the
-  # preview address on deploy previews, so canonical and Open Graph tags point
-  # at whichever site is actually being built.
-  command = "VITE_SITE_URL=$DEPLOY_PRIME_URL npm run build"
+  # Default build keeps the canonical domain from .env. This site deploys from
+  # the master branch, which Netlify treats as a branch deploy rather than a
+  # production context, so DEPLOY_PRIME_URL would resolve to the branch address
+  # and point the canonical tag away from the real domain.
+  command = "npm run build"
   publish = "build"
+
+# Only deploy previews describe themselves, so a shared preview link does not
+# advertise the live site.
+[context.deploy-preview]
+  command = "VITE_SITE_URL=$DEPLOY_PRIME_URL npm run build"
 
 # Serve index.html for unknown paths so client-side routes resolve
 # instead of returning Netlify's 404 page.
