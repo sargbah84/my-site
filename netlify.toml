@@ -1,5 +1,8 @@
 [build]
-  command = "npm run build"
+  # DEPLOY_PRIME_URL is the production domain on production builds and the
+  # preview address on deploy previews, so canonical and Open Graph tags point
+  # at whichever site is actually being built.
+  command = "VITE_SITE_URL=$DEPLOY_PRIME_URL npm run build"
   publish = "build"
 
 # Serve index.html for unknown paths so client-side routes resolve

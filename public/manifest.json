@@ -1,14 +1,21 @@
 {
   "short_name": "P. Sargbah",
   "name": "Prince J. Sargbah | Full Stack Developer",
+  "description": "Prince J. Sargbah is a full stack developer based in Atlanta, GA, building with React, Laravel, Node.js and WordPress.",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "avatar.jpg",
+      "sizes": "400x400",
+      "type": "image/jpeg"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
