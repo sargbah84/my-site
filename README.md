@@ -1,6 +1,6 @@
 ## Synopsis
 
-This repository contain my personal website built using [React Js](https://facebook.github.io/react/).
+This repository contain my personal website built using [React Js](https://react.dev/) and [Vite](https://vite.dev/).
 
 ## Packages
 
@@ -11,7 +11,7 @@ I used [Boostrap](https://github.com/twbs/bootstrap) CSS to make the layouts, SC
 
 ## Installation
 
-If you want to try it out to see how I made us of sass in react js, you can go ahead and clone the repo, **npm install**, then **'npm start'** to run a reload server, then when you want to built a production version run **'npm run build'**
+If you want to try it out to see how I made us of sass in react js, you can go ahead and clone the repo, **npm install**, then **'npm run dev'** to run a reload server, then when you want to built a production version run **'npm run build'**. To preview a production build locally, run **'npm run preview'**.
 
 ## License
 
