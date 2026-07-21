@@ -21,19 +21,23 @@ const Portfolio = ({ data }) => {
 
   return (
     <section className="portfolio-section position-relative" id="portfolio">
-      <span className="section-ghost" aria-hidden="true">
-        my
-        <br />
-        portfolio
-      </span>
+      <span className="deco-ring deco-ring-top" aria-hidden="true" />
+      <span className="deco-ring deco-ring-left" aria-hidden="true" />
 
       <div className="container px-md-0 px-4 position-relative">
         <div className="row align-items-end mb-4">
           <div className="col-md-5">
-            <h2 className="section-heading">
-              <span className="section-mark" aria-hidden="true" />
-              portofolio
-            </h2>
+            <div className="heading-stack">
+              <span className="section-ghost" aria-hidden="true">
+                my
+                <br />
+                portfolio
+              </span>
+              <h2 className="section-heading">
+                <span className="section-mark" aria-hidden="true" />
+                portofolio
+              </h2>
+            </div>
           </div>
           <div className="col-md-7">
             <p className="section-lead mb-0">

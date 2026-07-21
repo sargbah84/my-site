@@ -35,19 +35,22 @@ const Contact = ({ data }) => {
 
   return (
     <section className="contact-section position-relative" id="contact">
-      <span className="section-ghost" aria-hidden="true">
-        connect
-        <br />
-        with me
-      </span>
+      <span className="deco-ring deco-ring-contact" aria-hidden="true" />
 
       <div className="container px-md-0 px-4 position-relative">
         <div className="row align-items-center">
           <div className="col-md-5 mb-4 mb-md-0">
-            <h2 className="section-heading">
-              <span className="section-mark" aria-hidden="true" />
-              contact us
-            </h2>
+            <div className="heading-stack">
+              <span className="section-ghost" aria-hidden="true">
+                connect
+                <br />
+                with me
+              </span>
+              <h2 className="section-heading">
+                <span className="section-mark" aria-hidden="true" />
+                contact us
+              </h2>
+            </div>
             <p className="section-lead">
               Have a project in mind or just want to say hello? Send a message
               and I will get back to you.
