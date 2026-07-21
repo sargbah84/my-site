@@ -543,8 +543,8 @@ $ink: #1B1F3B;
   text-align: center;
 
   svg {
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
     transition: transform .3s;
   }
 
@@ -554,7 +554,7 @@ $ink: #1B1F3B;
 
   .tool-name {
     display: block;
-    margin-top: .4rem;
+    margin-top: .5rem;
     font-size: .78rem;
     color: rgba($ink, .55);
   }
