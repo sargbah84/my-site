@@ -42,6 +42,19 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!--
+      Netlify detects forms by scanning the deployed HTML at build time, and it
+      cannot see markup that React renders at runtime. This hidden copy
+      registers the form; the visible one lives in Contact.jsx and posts to it.
+    -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <input type="text" name="name" />
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/index.jsx"></script>
   </body>

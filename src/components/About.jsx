@@ -3,7 +3,7 @@ import React from 'react';
 class About extends React.Component{
     render(){
         return (
-            <section className="clearfix position-relative py-5 dark">
+            <section className="clearfix position-relative py-5 dark" id="about">
                 <div className="container px-md-0 px-4">
                     <div className="clearfix text-center mb-5">
                         <h1 className="display-1 opacity-25 mb-0">About Me</h1>

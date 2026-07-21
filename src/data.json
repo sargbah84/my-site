@@ -94,6 +94,7 @@
                     "id": 10,
                     "name": "Real Estate Money, Inc",
                     "type": "WordPress",
+                    "category": "web",
                     "details": "Corporate website built on WordPress CMS. Also includes multiple lead magnet funnels used by the marketing department to generate new leads and dynamic forms to purchase products.",
                     "url": "https://www.realestatemoney.com"
                 },
@@ -101,6 +102,7 @@
                     "id": 9,
                     "name": "ProfitGrabber, Inc",
                     "type": "HTML, CSS & JavaScript",
+                    "category": "web",
                     "details": "Software landing page and order form built on on Core CSS, HTML, JavaScript and PHP",
                     "url": "https://www.profitgrabber.com"
                 },
@@ -108,6 +110,7 @@
                     "id": 8,
                     "name": "CoachingCall Organizer",
                     "type": "Laravel & Blade Template Engine",
+                    "category": "web",
                     "details": "App to enable coaches and students organize and schedule calls with students.",
                     "url": "https://coachingcall.mentormemarko.com"
                 }
@@ -117,6 +120,7 @@
                     "id": 7,
                     "name": "Swav Apparel",
                     "type": "Shopify Template Engine",
+                    "category": "web",
                     "details": "Online store design and built on the Shopify theme engine.",
                     "url": "https://swavapparel.com"
                 },
@@ -124,6 +128,7 @@
                     "id": 6,
                     "name": "MTN Liberia Music Awards",
                     "type": "WordPress & Laravel",
+                    "category": "web",
                     "details": "Client award & artist community app built on WordPress CMS and Laravel Framework.",
                     "url": "https://mtn.liberiamusicawards.com"
                 },
@@ -131,6 +136,7 @@
                     "id": 5,
                     "name": "TrueLiberia App",
                     "type": "Laravel & React Native",
+                    "category": "mobile",
                     "details": "A business directory App built on Laravel framework.",
                     "url": "https://www.trueliberia.com"
                 },
@@ -138,6 +144,7 @@
                     "id": 4,
                     "name": "Terra Cocoa",
                     "type": "React & MongoDB",
+                    "category": "web",
                     "details": "A business website built on React Js.",
                     "url": "https://www.terraliberia.com"
                 }
@@ -147,6 +154,7 @@
                     "id": 3,
                     "name": "CSS Card",
                     "type": "HTML & CSS",
+                    "category": "design",
                     "details": "One of my most viewed Simple HTML & CSS fun projects on Codepen",
                     "url": "https://codepen.io/sargbah84/pen/pyVzRo"
                 },
@@ -154,6 +162,7 @@
                     "id": 2,
                     "name": "Coming Soon Page",
                     "type": "React Js & Custom CSS",
+                    "category": "design",
                     "details": "Getting my hands at react js and custom css.",
                     "url": "https://0i9qs.csb.app"
                 },
@@ -161,9 +170,25 @@
                     "id": 1,
                     "name": "My website",
                     "type": "React Js, Bootstrap & SCSS",
+                    "category": "web",
                     "details": "Getting my hands at custom building react components. Also integrating Bootstrap, SCSS and WebFonts.",
                     "url": "https://www.princesargbah.me"
                 }
+            ],
+            "contact": {
+                "email": "sargbah84@gmail.com",
+                "location": "Atlanta, GA, United States"
+            },
+            "tools": [
+                {"id": 1, "name": "MySQL", "icon": "mysql"},
+                {"id": 2, "name": "Node.js", "icon": "node"},
+                {"id": 3, "name": "React", "icon": "react"},
+                {"id": 4, "name": "Adobe XD", "icon": "xd"},
+                {"id": 5, "name": "Figma", "icon": "figma"},
+                {"id": 6, "name": "PostgreSQL", "icon": "postgresql"},
+                {"id": 7, "name": "JavaScript", "icon": "javascript"},
+                {"id": 8, "name": "Laravel", "icon": "laravel"},
+                {"id": 9, "name": "Express", "icon": "express"}
             ],
             "skills": [
                 {"id": 1, "name": "HTML5 & CSS3"}, 

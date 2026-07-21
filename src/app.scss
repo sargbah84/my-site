@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @import url("https://fonts.googleapis.com/css?family=Poppins|Homemade+Apple&display=swap");
 
 $primary-color: rgba(0,62,203,0.98);
@@ -316,5 +318,344 @@ h1,h2,h3,h4,h5 {
       width: 170px;
       height: 170px;
     }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Portfolio, tools, contact and footer
+   --------------------------------------------------------------------------- */
+
+$surface: #EEF1FE;
+$ink: #1B1F3B;
+
+// Oversized watermark word behind each section heading.
+.section-ghost {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  font-family: $font1;
+  font-size: clamp(3rem, 11vw, 7.5rem);
+  font-weight: 700;
+  line-height: .84;
+  color: rgba($primary-color, .07);
+  letter-spacing: -.02em;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  padding: 0 24px;
+
+  &.section-ghost-right {
+    text-align: right;
+  }
+}
+
+.section-heading {
+  font-family: $font1;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: $ink;
+  margin-bottom: .6rem;
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+}
+
+// The ring glyph that precedes each heading in the design.
+.section-mark {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: solid 5px $primary-color;
+  flex: none;
+}
+
+.section-lead {
+  color: rgba($ink, .6);
+  font-size: .95rem;
+  max-width: 46ch;
+}
+
+.portfolio-section,
+.tools-section,
+.contact-section {
+  background: $surface;
+  padding: 120px 0 90px;
+  overflow: hidden;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  // Clears the watermark word, which sits behind the heading above.
+  padding-top: .75rem;
+}
+
+.filter-tab {
+  border: none;
+  background: rgba($primary-color, .09);
+  color: $primary-color;
+  font-size: .8rem;
+  padding: .4rem 1.15rem;
+  border-radius: 25px;
+  transition: .25s;
+
+  &:hover {
+    background: rgba($primary-color, .18);
+  }
+
+  &.is-active {
+    background: $primary-color;
+    color: #fff;
+  }
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.project-card {
+  display: block;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba($ink, .06);
+  transition: transform .35s, box-shadow .35s;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba($ink, .13);
+  }
+
+  .project-thumb {
+    display: block;
+    width: 100%;
+    height: 165px;
+    background: $surface;
+  }
+}
+
+.project-card-body {
+  padding: .9rem 1.1rem 1.15rem;
+}
+
+.project-card-type {
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: rgba($ink, .45);
+}
+
+.project-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $ink;
+  margin: .15rem 0 0;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 1.5rem 1rem;
+}
+
+.tool-item {
+  text-align: center;
+
+  svg {
+    width: 54px;
+    height: 54px;
+    transition: transform .3s;
+  }
+
+  &:hover svg {
+    transform: translateY(-5px);
+  }
+
+  .tool-name {
+    display: block;
+    margin-top: .4rem;
+    font-size: .78rem;
+    color: rgba($ink, .55);
+  }
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: .6rem;
+    font-size: .9rem;
+    color: rgba($ink, .7);
+  }
+
+  svg {
+    color: $primary-color;
+    flex: none;
+  }
+
+  a {
+    color: rgba($ink, .7);
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.contact-form {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.75rem;
+  box-shadow: 0 10px 30px rgba($ink, .07);
+
+  input,
+  textarea {
+    width: 100%;
+    border: none;
+    background: $surface;
+    border-radius: 8px;
+    padding: .75rem 1rem;
+    margin-bottom: .85rem;
+    font-size: .9rem;
+    color: $ink;
+    resize: vertical;
+
+    &::placeholder {
+      color: rgba($ink, .4);
+    }
+
+    &:focus {
+      outline: solid 2px rgba($primary-color, .45);
+    }
+  }
+}
+
+.contact-submit {
+  width: 100%;
+  border: none;
+  background: $primary-color;
+  color: #fff;
+  font-size: .9rem;
+  padding: .7rem 1rem;
+  border-radius: 8px;
+  transition: .25s;
+
+  &:hover:not(:disabled) {
+    background: color.adjust(#003ECB, $lightness: -8%);
+  }
+
+  &:disabled {
+    opacity: .6;
+  }
+}
+
+.form-status {
+  margin: .85rem 0 0;
+  font-size: .85rem;
+
+  &.form-status-ok {
+    color: #1B7F4B;
+  }
+
+  &.form-status-error {
+    color: #B3261E;
+  }
+}
+
+.site-footer {
+  background: $primary-color;
+  color: rgba(255, 255, 255, .85);
+  padding: 48px 0 28px;
+  text-align: center;
+
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1.25rem;
+    border-bottom: solid 1px rgba(255, 255, 255, .18);
+  }
+
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .section-mark {
+    border-color: #fff;
+    width: 22px;
+    height: 22px;
+    border-width: 4px;
+  }
+
+  .footer-name {
+    font-family: $signature;
+    font-size: 1.15rem;
+    color: #fff;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+
+    a {
+      color: rgba(255, 255, 255, .8);
+      text-decoration: none;
+      font-size: .85rem;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .footer-socials {
+    margin: 1.5rem 0 .75rem;
+
+    a {
+      color: rgba(255, 255, 255, .8);
+      font-size: 1rem;
+      margin: 0 .5rem;
+      display: inline-block;
+      transition: transform .3s;
+
+      &:hover {
+        color: #fff;
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  .footer-copy {
+    font-size: .78rem;
+    color: rgba(255, 255, 255, .6);
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-section,
+  .tools-section,
+  .contact-section {
+    padding: 90px 0 60px;
+  }
+
+  .site-footer .footer-top {
+    justify-content: center;
   }
 }

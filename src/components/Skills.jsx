@@ -4,7 +4,7 @@ class Skills extends React.Component
 {
     render(){
         return (
-            <section className="skills position-relative pb-5 text-center dark">
+            <section className="skills position-relative pb-5 text-center dark" id="skills">
                 <div className="container px-md-0 px-4">
                     <div className="row justify-content-center">
                         <div className="col-md-10">
